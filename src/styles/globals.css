@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=DM+Sans:wght@400;500;700&family=Montserrat:wght@300;400;500&family=Mulish:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+}
+.shadow-form {
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.12);
+}
+
+.ant-menu-item {
+  width: 100% !important;
+  margin: auto !important;
+  border-radius: 0 !important;
+}
+.ant-table-column-sorter {
+  display: none !important;
+}
+
+/* #newOrders .ant-table-tbody tr {
+  background-color: #fc8383;
+  border-radius: 50px !important;
+  padding: 10px !important;
+  margin-top: 50px !important;
+} */
+.ant-table-thead tr th{
+  background-color: #FAFBFF !important;
+  border-right: none !important;
+}
+
+table{
+  background-color: #FAFBFF;
+}
+
+.ant-table-thead tr th::before{
+  background-color: transparent !important;
+}
+
+.ant-menu-item:not(:first-child) {
+  margin-top: 0.5rem !important;
+}
+
+.ant-menu-item.ant-menu-item-selected {
+  background-color: #264798 !important;
+}
+
+.ant-layout-sider-trigger {
+  background-color: #264798 !important;
+}
+
+.ant-layout-sider,
+.ant-menu {
+  background-color: #1a3578 !important;
+}
+
+.ant-layout-header {
+  background-color: #1a3578 !important;
+}
+
+.ant-layout-sider {
+  box-shadow: 4px 11px 12px rgba(0, 0, 0, 0.12) !important;
+}
+
+.sidebar {
+  overflow-y: auto;
+  max-height: 55.4vh !important;
+  padding-bottom: 1rem !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: white;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar:hover::-webkit-scrollbar {
+  /* overflow: scroll; */
+  display: block;
+  width: 6px;
+}
+
+.ant-layout-sider-collapsed .user {
+  display: none !important;
+}
+.parent{
+  background-image: url('../../public/images/bg-login.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.ant-btn-primary{
+  background-color: #0E1D42 !important;
+}
